@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    width:80%;
+    max-width: 1200px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/*header section*/
+.top-bar{
+    background: linear-gradient(to right,#f0ba4e,#f14199);
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+.top-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info span{
+    margin-left: 15px;
+}
+.btn{
+    background: #f14199;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/*navigation bar section*/
+.navbar{
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 2px;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-clr{
+    background: hsl(40, 84%, 62%);
+}
+/*hero section*/
+.hero{
+    height: 400px;
+    background-image: url('/Landingpage\(images\)\ -\ Copy/image1.jpg');
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.btns{
+    background: #f14199;
+    padding: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/*service bar section*/
+.info-bar{
+    background: linear-gradient(to right,#f0ba4e,#f14199);
+    color: #fff;
+    padding: 40px 0;
+}
+.info-bar .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.info-box{
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+.info-box h2{
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+.info-box p{
+    font-size: 15px;
+}
+/*about section*/
+.about{
+    padding: 30px;
+    background: #f8f9fa;
+}
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text h3{
+    font-size: 20px;
+}
+.btn1{
+    background: #f14199;
+    padding: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+/*our services section*/
+.services{
+    padding: 10px;
+}
+.service-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h4{
+    font-size: 20px;
+}
+.service-box{
+    color: #333;
+    font-size: 10px;
+    margin-top: 5px;
+}
