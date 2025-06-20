@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.9;
+    background-color: #f9f9f9;
+    color: #333;
+}
+/*Header section*/
+header{
+    background-color: #333;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px;
+}
+/*About Section*/
+.about img{
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    padding-top: 2px;
+}
+section{
+    padding: 1rem;
+    max-width: 900px;
+    margin: auto;
+}
+/*Skills section*/
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 2px;
+}
+/*project section*/
+.project img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.projecting img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.project{
+    margin-bottom: 5px;
+}
+/*resume section*/
+a{
+    text-decoration: none;
+    color: #0066cc;
+}
+/*Footer*/
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+
+}
