@@ -1,2 +1,2 @@
 # CodSoft 
-Consists of total three web projects.
+Consists of total three web projects.Using HTML,CSS,JS.
